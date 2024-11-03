@@ -1,0 +1,16 @@
+.divider {
+    background-color: #ccc;
+    margin: 10px 0;
+  }
+  
+  .divider.horizontal {
+    height: 1px;
+    width: 100%;
+  }
+  
+  .divider.vertical {
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+  }
+  

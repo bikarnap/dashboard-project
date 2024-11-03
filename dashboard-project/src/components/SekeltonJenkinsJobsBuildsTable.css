@@ -1,0 +1,38 @@
+/* SkeletonTable.css */
+
+.skeleton-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .skeleton-row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .skeleton-cell {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+    height: 20px;
+    flex: 1;
+    margin: 8px;
+  }
+  
+  .skeleton-header {
+    background: #ddd;
+    height: 30px;
+    margin: 8px;
+    border-radius: 4px;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  

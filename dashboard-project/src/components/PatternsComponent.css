@@ -1,0 +1,24 @@
+.patterns-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .pattern-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pattern-item h3 {
+    margin: 10px 0;
+  }
+  

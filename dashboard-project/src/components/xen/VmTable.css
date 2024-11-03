@@ -1,0 +1,41 @@
+/* VmTable.css */
+
+.vm-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .vm-table th, .vm-table td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+  }
+  
+  .vm-table th {
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination .ellipsis {
+    padding: 5px 10px;
+    margin: 0 2px;
+  }
+  
